@@ -1,0 +1,1 @@
+# Manual-Testing-for-InsureSafe-Insurance-App
