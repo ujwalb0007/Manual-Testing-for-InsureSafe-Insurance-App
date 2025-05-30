@@ -1,0 +1,11 @@
+TestCaseID,Scenario,Precondition,TestSteps,ExpectedResult,ActualResult,Status
+TC_001,Verify user login with valid credentials,User is on login page,1. Enter username: policyholder1, 2. Enter password: Insure@123, 3. Click Login,User is redirected to dashboard,,Pending
+TC_002,Verify login with invalid credentials,User is on login page,1. Enter username: policyholder1, 2. Enter password: Wrong@123, 3. Click Login,Error message: "Invalid credentials",,Pending
+TC_003,Verify health policy purchase with valid data,User is logged in,1. Navigate to Policy Purchase, 2. Select Health Policy, 3. Enter age: 30, sum insured: ₹5,00,000, 4. Submit,Policy issued, premium displayed,,Pending
+TC_004,Verify policy purchase with invalid age,User is logged in,1. Navigate to Policy Purchase, 2. Select Health Policy, 3. Enter age: 150, sum insured: ₹5,00,000, 4. Submit,Error: "Invalid age",,Pending
+TC_005,Verify claim submission with valid documents,User is logged in,1. Navigate to Claims, 2. Upload medical bills, 3. Submit claim for ₹50,000,Claim submitted, status: Pending,,Pending
+TC_006,Verify claim submission without documents,User is logged in,1. Navigate to Claims, 2. Submit claim without documents,Error: "Documents required",,Pending
+TC_007,Verify premium calculation for auto insurance,User is on policy page,1. Select Auto Policy, 2. Enter vehicle value: ₹10,00,000, 3. Calculate premium,Correct premium displayed (e.g., ₹25,000),,Pending
+TC_008,Verify KYC with valid PAN and Aadhaar,User is in KYC section,1. Enter PAN: FGHIJ5678K, Aadhaar: 1234-5678-9012, 2. Submit,KYC verified successfully,,Pending
+TC_009,Verify IRDAI-compliant disclosure display,User is on policy page,1. View policy details,IRDAI-mandated disclosures shown,,Pending
+TC_010,Verify session timeout after 5 minutes,User is logged in,1. Stay idle for 5 minutes,User logged out automatically,,Pending

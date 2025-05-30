@@ -1,0 +1,4 @@
+PolicyID,Type,SumInsured,Age,Premium,Status
+POL_001,Health,500000,30,15000,Valid
+POL_002,Health,500000,150,0,Invalid
+POL_003,Auto,1000000,40,25000,Valid

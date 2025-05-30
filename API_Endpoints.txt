@@ -1,0 +1,16 @@
+InsureSafe API Endpoints for Testing
+
+1. Policy Purchase
+   - Endpoint: POST /api/policy/purchase
+   - Sample Request: {"user": "policyholder1", "type": "Health", "sum_insured": 500000, "age": 30}
+   - Expected Response: {"status": "issued", "policy_id": "POL_001"}
+
+2. Claim Submission
+   - Endpoint: POST /api/claim/submit
+   - Sample Request: {"user": "policyholder1", "amount": 50000, "documents": ["medical_bill.pdf"]}
+   - Expected Response: {"status": "submitted", "claim_id": "CLM_001"}
+
+3. KYC Verification
+   - Endpoint: POST /api/kyc/verify
+   - Sample Request: {"pan": "FGHIJ5678K", "aadhaar": "1234-5678-9012"}
+   - Expected Response: {"status": "verified"}

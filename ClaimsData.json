@@ -1,0 +1,18 @@
+[
+  {
+    "ClaimID": "CLM_001",
+    "User": "policyholder1",
+    "Type": "Health",
+    "Amount": 50000,
+    "Documents": ["medical_bill.pdf"],
+    "Status": "Pending"
+  },
+  {
+    "ClaimID": "CLM_002",
+    "User": "policyholder2",
+    "Type": "Health",
+    "Amount": 100000,
+    "Documents": [],
+    "Status": "Invalid"
+  }
+]

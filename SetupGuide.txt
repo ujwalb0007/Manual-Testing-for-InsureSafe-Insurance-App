@@ -1,0 +1,20 @@
+InsureSafe Manual Testing Setup Guide
+
+1. Environment Setup:
+   - App: InsureSafe (use demo insurance app like policybazaar.com/test or Android/iOS emulator).
+   - Tools: Chrome browser, Postman for API testing.
+   - Prerequisites: Stable internet, emulator (e.g., Android Studio), Postman installed.
+
+2. Test Environment:
+   - URL: https://sandbox.policybazaar.com (or local emulator).
+   - Browser: Chrome v120+, Firefox v115+.
+   - Device: Android 12+ or iOS 16+ emulator.
+
+3. Configuration:
+   - Ensure IRDAI compliance (e.g., data privacy, customer disclosures).
+   - Set up API keys in Postman for endpoints in API_Endpoints.txt.
+   - Use TestData/ for input data.
+
+4. Execution:
+   - Open TestCases_InsureSafe.xlsx and follow test steps.
+   - Log results in DefectLog.xlsx and save screenshots in Screenshots/.
